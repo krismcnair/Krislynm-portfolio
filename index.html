@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Krislyn McNair | Content Design Portfolio</title>
+    <style>
+      :root {
+        --blue: #1f5fa5;
+        --blue-dark: #184a80;
+        --ink: #1f2937;
+        --muted: #6b7280;
+        --bg: #ffffff;
+        --card: #f8fafc;
+        --line: #d7dee8;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.45;
+      }
+      a { color: var(--blue-dark); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 56px; }
+      .hero {
+        border: 1px solid var(--line);
+        background: linear-gradient(180deg, #e9f2ff 0%, #ffffff 65%);
+        border-radius: 16px;
+        padding: 28px;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 40px;
+        letter-spacing: -0.02em;
+        color: var(--blue-dark);
+      }
+      .tagline { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+      .summary { margin: 0 0 18px; font-size: 16px; max-width: 74ch; }
+      .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      }
+      .section {
+        margin-top: 28px;
+      }
+      .section h2 {
+        margin: 0 0 14px;
+        font-size: 20px;
+        color: var(--blue);
+        letter-spacing: -0.01em;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+        h1 { font-size: 32px; }
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px 18px 16px;
+        box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+      }
+      .card h3 {
+        margin: 0 0 6px;
+        font-size: 18px;
+        color: var(--blue);
+      }
+      .meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+      ul { margin: 0 0 10px; padding-left: 18px; }
+      li { margin: 6px 0; }
+      .note { margin: 10px 0 0; color: var(--muted); font-size: 13px; }
+      .links {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .footer {
+        margin-top: 28px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <h1>Krislyn McNair</h1>
+        <p class="tagline">Content Designer | UX Content Specialist | Technical Writer</p>
+        <p class="summary">
+          I design clear, inclusive, user-centered content that helps people complete tasks and understand complex systems.
+          I collaborate with cross-functional teams to improve content quality, structure, and accessibility using plain language and
+          consistent standards.
+        </p>
+        <div class="btns">
+          <a class="btn" href="https://fun.fonteva.com/s/topic/0TO4V0000005Z4HWAU/current-release-resources" target="_blank" rel="noreferrer">Fonteva: Release Resources</a>
+          <a class="btn" href="https://support.gingrapp.com/hc/en-us/categories/24782589270157-User-Admin-Guide" target="_blank" rel="noreferrer">Gingr: User/Admin Guide</a>
+          <a class="btn" href="https://gostudiopro.com/blog" target="_blank" rel="noreferrer">Studio Pro: Blog</a>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>Selected Content Design Work</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Fonteva</h3>
+            <p class="meta">Enhancements, new features, releases, patch releases, and documentation restructuring</p>
+            <ul>
+              <li>Wrote and updated documentation for new features and releases</li>
+              <li>Restructured content to improve findability and navigation</li>
+              <li>Applied plain language and consistent terminology across updates</li>
+            </ul>
+            <p class="links"><a href="https://fun.fonteva.com/s/topic/0TO4V0000005Z4HWAU/current-release-resources" target="_blank" rel="noreferrer">Open: Current Release Resources</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Gingr</h3>
+            <p class="meta">Documentation migration oversight and content updates</p>
+            <ul>
+              <li>Oversaw migration into a new documentation system</li>
+              <li>Updated content for clarity, organization, and self-service</li>
+              <li>Improved structure to support customer and support workflows</li>
+            </ul>
+            <p class="links"><a href="https://support.gingrapp.com/hc/en-us/categories/24782589270157-User-Admin-Guide" target="_blank" rel="noreferrer">Open: User/Admin Guide (Help Center)</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Studio Pro</h3>
+            <p class="meta">Documentation updates and educational content</p>
+            <ul>
+              <li>Updated documentation to reflect current workflows</li>
+              <li>Supported user education through learning resources and blog content</li>
+              <li>Improved clarity and consistency for operational guidance</li>
+            </ul>
+            <p class="links"><a href="https://gostudiopro.com/blog" target="_blank" rel="noreferrer">Open: Studio Pro Blog</a></p>
+            <p class="note">User guide is login-only: <a href="https://gostudiopro.com/learn-the-system" target="_blank" rel="noreferrer">Learn the System</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Camps</h3>
+            <p class="meta">Content updates supporting release of new software</p>
+            <ul>
+              <li>Updated content for new features and workflows</li>
+              <li>Designed content for quick, just-in-time learning</li>
+              <li>Optimized readability for seasonal and high-turnover users</li>
+            </ul>
+            <p class="links"><a href="https://blog.circuitree.com/camp-management-software" target="_blank" rel="noreferrer">Open: Camp Management Software Overview</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Protech</h2>
+        <div class="card">
+          <h3>UX and MX Documentation</h3>
+          <p class="meta">UX and MX documentation supporting customer care systems</p>
+          <ul>
+            <li>Created and updated UX and MX guides focused on task completion</li>
+            <li>Improved clarity, consistency, and standards across guidance</li>
+            <li>Supported customer care workflows with usable, accessible content</li>
+          </ul>
+          <p class="note">Guides are login-only and available upon request.</p>
+        </div>
+      </section>
+
+      <div class="footer">Tip: This is a single-file site. You can host it on GitHub Pages, Netlify, or upload it to any web host.</div>
+    </div>
+  </body>
+</html>
